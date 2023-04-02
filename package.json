@@ -2,7 +2,8 @@
   "name": "isd-task-7-backend",
   "version": "1.0.0",
   "scripts": {
-    "server": "npx tsc && node dist/index.js",
+    "server": "tsc && node dist/index.js",
+    "prod": "npm install typescript && npx tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kirill Ryabov",
